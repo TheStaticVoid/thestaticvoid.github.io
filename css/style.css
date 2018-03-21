@@ -1,0 +1,95 @@
+body {
+	background:black;
+	padding:0px;
+	margin:0px;
+}
+
+h1, h2, h3, p, header, nav, footer {
+	color:white;
+	font-family:Ubuntu;
+}
+
+a:link {
+	color:#0cff31;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#05c623;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#0cff31;
+	text-decoration:none;
+}
+
+a:active {
+	color:#0cff31;
+	text-decoration:none;
+}
+
+header {
+	font-size:300%;
+}
+
+footer {
+	font-size:80%;
+	text-align:center;
+}
+
+
+.top {
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+
+.content {
+	width:45%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+}
+
+.content::after {
+	content: "";
+  clear: both;
+  display: table;
+}
+
+.col-content {
+	width:50%;
+	float:left;
+}
+
+ul, li {
+	text-align:left;
+	padding:5px;
+	font-family:Ubuntu;
+}
+
+#twitter {
+	list-style-image: url('../img/twitter.png');
+}
+
+#twitch {
+	list-style-image: url('../img/twitch.png');
+}
+
+#discord {
+	list-style-image: url('../img/discord.png');	
+}
+
+#steam {
+	list-style-image: url('../img/steam.png');
+}
+
+#github {
+	list-style-image: url('../img/github.png');
+}
+
+#youtube {
+	list-style-image: url('../img/youtube.png');
+}
+
